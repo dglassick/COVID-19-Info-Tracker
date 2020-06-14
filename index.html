@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>COVID-Tracker Home Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span><i class="fas fa-bars"></i></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Info Page</a>
+                        <a class="dropdown-item" href="#">Stats Page</a>
+                        <a class="dropdown-item" href="#">Heat Map</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center ">
+            <div class="col-lg-12 text-center col-sm-12 " data-aos="fade-up" data-aos-delay="100">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="display-3 mb-4">Welcome to CODID-19 Tracker
+                </h1>
+                <br>
+                <br>
+                <h4 class="display-4">Stay informed. Stay Safe</h4>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr class="mr-5 ml-5">
+<br>
+<br>
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+                <blockquote class="blockquote">
+                    <p class="mb-0">Pandemic is not a word to use lightly or carelessly. It is a word that,
+                        if misused, can cause unreasonable fear,
+                        or unjustified acceptance that the fight is over, 
+                       leading to unnecessary suffering and death.</p>
+                    <footer class="blockquote-footer">Dr. Tedros Adhanom <cite title="Source Title">World Health Organization Director General</cite></footer>
+                  </blockquote>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <img class="tedros_image" src="./assets/images/dr_tedros.jpg" alt="image of Dr. Adhanom">
+            </div>
+            
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+        <div class="row align-items-center justify-content-center mb-4" data-aos="fade-up" data-aos-delay="400">
+            <blockquote class="blockquote displ">
+                <p class="mb-0">Thank you for looking at our project. Our goal with creating this application is to make sure that the people are
+                    staying informed and staying safe. The effect that Coronavirus has had on the world has been unprecedented, and reaped permanent
+                    social changes in how countries across the globe respond to pandemics and share information. With the major affect of COVID-19 in mind
+                    we have made functions to attempt to bring up-o-date and relevant information people to allow them to make the best decisions to keep
+                    themselves and their families safe.
+                </p>
+              </blockquote>
+        </div>
+        <br><br><br>
+        <div class="row align-items-center justify-content-center mb-4">
+            <div class="col-lg-4 info-break-right"  data-aos="fade-up" data-aos-delay="300">
+                <p class='h3 display-4'>Info Page</p>
+                <blockquote class="blockquote display-4 list-inline-item">
+                    <p>This page contains information to help people learn about how the virus
+                        spreads, how they can protect themselves, and the symptoms one might experience
+                        when contracting the virus.
+                    </p>
+                </blockquote>
+            </div>
+            <div class="col-lg-4 info-break-right"  data-aos="fade-up" data-aos-delay="400">
+                <p class='h3 display-4'>Stats Page</p>
+                <blockquote class="blockquote display-4 list-inline-item">
+                    <p>This page contains statistics on the number of cases by country, with the hope that we can narrow 
+                        information down by city or county in the future.
+                    </p>
+                </blockquote>
+            </div>
+            <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="500">
+                <p class='h3 display-4'>Map Page</p>
+                <blockquote class="blockquote display-4 list-inline-item">
+                    <p>This page has a heat map, or choropleth map depending on the phase of development. At this point in time it will have only
+                        a map of the US, with the hope of adding more countries in the future.
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+<br><br><br><br><br>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/452b48189c.js" crossorigin="anonymous"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

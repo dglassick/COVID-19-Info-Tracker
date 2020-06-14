@@ -1,0 +1,9 @@
+.tedros_image{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.info-break-right{
+    border-right: 1px solid darkslategray;
+    padding-right: 2px;
+  }
