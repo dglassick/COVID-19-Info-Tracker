@@ -4,6 +4,7 @@
 }
 
 .info-break-right{
-    border-right: 1px solid darkslategray;
-    padding-right: 2px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    padding-right: 5px;
   }
+  
