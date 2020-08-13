@@ -12,8 +12,10 @@ You can use the link below to access the deployed application.
 https://dglassick.github.io/COVID-19-Info-Tracker/
 
 
-## Screen Shots of Applications
+# Screen Shots of Applications
 Below are screen shots of the main pages, with a description of their function
 
-# Landing Page
+## Landing Page
 This page gives an overview of the site and an idea of why it was developed.
+![image](https://user-images.githubusercontent.com/59103609/90081040-25d90580-dcc1-11ea-924d-083323759988.png)
+
