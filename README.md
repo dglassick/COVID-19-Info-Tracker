@@ -10,3 +10,10 @@ Since the portfolio only uses html you can just open it in your browser after cl
 
 You can use the link below to access the deployed application.
 https://dglassick.github.io/COVID-19-Info-Tracker/
+
+
+## Screen Shots of Applications
+Below are screen shots of the main pages, with a description of their function
+
+# Landing Page
+This page gives an overview of the site and an idea of why it was developed.
