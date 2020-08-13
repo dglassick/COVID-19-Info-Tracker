@@ -5,3 +5,8 @@ This project came about when the three group members were asked to make a real s
 
 # Running Application
 Since the portfolio only uses html you can just open it in your browser after clonging the repo and run it.
+
+## Deployed Application
+
+You can use the link below to access the deployed application.
+https://dglassick.github.io/COVID-19-Info-Tracker/
